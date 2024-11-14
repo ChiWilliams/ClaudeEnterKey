@@ -1,11 +1,11 @@
 {
 
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Fix Claude's Enter Key",
     "description": "Replaces Enter with Shift+Enter on claude.ai, so that Enter produces a new line",
     "version": "1.0",
 
-    "browser-action": {
+    "browser": {
         "default_icon": "icons/icon48.png",
         "default_title": "Fix Claude's Enter Key"
     },
